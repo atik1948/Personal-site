@@ -1,0 +1,202 @@
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+/* navbar design starts here */
+
+.nav-logo {
+    text-align: left;
+}
+
+.nav-header h1 {
+    text-align: right;
+
+
+}
+
+.nav-menu {
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+
+.nav-menu a {
+    font-size: small;
+    font-size: 1rem;
+
+}
+
+.navbar {
+    padding: 1% 3%;
+}
+
+/* navbar design ends here */
+
+
+/* profile design starts here */
+.profile .top-weather-icon {
+
+    right: 100px;
+    width: 120px;
+    transition: width2s, transform 2s;
+}
+
+.profile .top-weather-icon:hover {
+
+    width: 140px;
+}
+
+.profile-desc p {
+    color: gray;
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    margin-bottom: 10px;
+
+
+}
+
+.profile .bottom-weather-icon {
+    bottom: 5px;
+    left: 80px;
+    width: 120px;
+    transition: width2s, transform 2s;
+}
+
+.profile .bottom-weather-icon:hover {
+
+    width: 140px;
+}
+
+.profile::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* profile design ends here */
+
+/* about me design starts here */
+.about-me {
+    margin-top: 20px;
+}
+
+.aboutme-image {
+    margin-top: 100px;
+
+}
+
+.aboutme-image img {
+    height: 270px;
+    width: 250px;
+}
+
+.aboutme-desc p {
+    text-align: left;
+}
+
+/* about me dersign ends here */
+
+/* Profesional experience start here */
+
+/* no 
+        need 
+        anymore */
+
+/* Profesional experience start here */
+
+/* achievement-contact start here */
+.media-buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 70px);
+    /* 2 icons per row */
+    justify-content: center;
+    gap: 10px 5px;
+    /* row gap, column gap */
+    margin-top: 70px;
+
+}
+
+.media-buttons .btn {
+
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: white;
+    border: none;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.media-buttons .btn:hover {
+    background-color: white;
+    transform: scale(1.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* achievement-contact ends here */
+
+/* footer starts from here */
+.footer-menu a {
+    display: inline;
+    margin: auto 10px;
+}
+
+.footer {
+    padding: 15px;
+}
+
+.footer-desc {
+    margin-top: 7px;
+}
+
+/* footer starts from here */
